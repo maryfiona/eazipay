@@ -11,6 +11,7 @@ import Book from '../Assets/Book.png'
 import Logo from '../Assets/Logo.png'
 import Admin from '../Assets/Admin.png'
 import Fund from '../Assets/Fund.png'
+import Data from '../Assets/Data.png'
 
 const Dashboard = () => {
     // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -75,6 +76,8 @@ const Dashboard = () => {
                         </div>
                         <div>
                             <img className="Fund" src={Fund} alt='Fund' />
+                            <img className='Data' src={Data} alt='Data' />
+
                         </div>
                        
 

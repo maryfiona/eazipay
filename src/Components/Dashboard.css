@@ -84,7 +84,12 @@
  .Fund{
     position: relative;
     top: 3em;
-    right: 20em;
+    right: 25em;
     width: 50em;
 
+ }
+ .Data{
+    position: relative;
+    left: 24em;
+    bottom: 10em;
  }
