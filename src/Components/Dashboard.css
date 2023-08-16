@@ -71,7 +71,7 @@
   }
   .logo{
     position: relative;
-    right: 26em;
+    right: 23em;
   }
  .frame{
     width: 100%;
@@ -93,3 +93,49 @@
     left: 24em;
     bottom: 10em;
  }
+ .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 20px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 1em;
+
+}
+.added{
+  position: relative;
+  right: 22em;
+  bottom: 19em;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+}
+.lol{
+  position: relative;
+  right: 10em;
+  bottom: 27.2em;
+
+}
+.pla{
+  position: relative;
+  left: 2em;
+  bottom: 35em;
+  width: 10em;
+  height: 8em;
+
+}
+.get{
+    position: relative;
+    left: 14em;
+    bottom: 43em;
+}
+
+

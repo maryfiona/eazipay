@@ -12,9 +12,13 @@ import Logo from '../Assets/Logo.png'
 import Admin from '../Assets/Admin.png'
 import Fund from '../Assets/Fund.png'
 import Data from '../Assets/Data.png'
+import Ploy from '../Assets/Ploy.png'
+import Salary from '../Assets/Salary.png'
+import get from '../Assets/get.png'
+import plain from '../Assets/plain.png'
 
 const Dashboard = () => {
-    // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+   // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     // const toggleDropdown = () => {
     //   setIsDropdownOpen(!isDropdownOpen);
@@ -79,9 +83,30 @@ const Dashboard = () => {
                             <img className='Data' src={Data} alt='Data' />
 
                         </div>
-                       
+                        <div className='box added'>
+                            <img src={Ploy} alt="Ploy" />
+                            <p>Add Employee</p>
 
-                    </div>
+                        </div>
+                        <div className='box  lol'>
+                            <img src={Salary} alt="Salary" />
+                            <p>Pay Salaries</p>
+
+                        </div>
+                        <div className='box pla'>
+                            <img src={plain} alt="plain" />
+                            <p>Pay Compliances</p>
+
+                        </div>
+                        <div className='box get'>
+                            <img  src={get} alt="get" />
+                            <p>Quick Loan</p>
+
+                        </div>
+                   </div>
+
+
+
 
                 </div>
 
