@@ -29,7 +29,7 @@ const LandingPage = () => {
       We’ve built an all-inclusive simple solution for <br /> individual and businesses to manage staff, 
       pay  <br />salaries, bills, and relevant taxes all at once.
       </p>
-      <button className="free">Start Using Free, Forever</button>
+      <button className="free text-light">Start Using Free, Forever</button>
       <div className="pt-5">
         <p>Download the Eazipay App</p>
         <a className="apple" href="https://www.apple.com/store" target="_blank" rel="noopener noreferrer">

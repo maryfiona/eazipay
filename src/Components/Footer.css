@@ -1,19 +1,112 @@
 .foot{
     padding-top: 30em;
 }
-.social-icons {
-    margin-top: 10px;
-  }
+
   
   .social-icons a {
-    color: #fff;
-    font-size: 24px;
     margin: 0 10px;
+    color: black;
+    background-color: whitesmoke;
+    
+  }
+
+  .insta:hover{
+    color: palevioletred;
+  }
+  .fac:hover{
+    color:rgb(69, 69, 192);
+
+  }
+  
+  .link:hover{
+    color: rgb(53, 53, 134);
+
+  }
+  .twi:hover{
+    color: blue;
+  }
+  .pro{
+    position: relative;
+    left: 6em;
   }
   
   
   
   
+  .footer-links a {
+    color:black;
+    text-decoration: none;
+    margin-right: 20px;
+    position: relative;
+    left: 7em;
+  }
   
+  .footer-section {
+    margin-top: 20px;
+  }
+  .yea{
+    position: relative;
+    top: 1em;
+    left: em;
+  }
   
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
   
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #007bff;
+  }.email-input {
+    display: inline-block;
+    width: 160px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .email-icon {
+    background-color:green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: -1px;
+    
+  }
+  
+  .email-icon:hover {
+    background-color: #0056b3;
+  }
+  
+  .yea{
+    position: relative;
+    top: 1em;
+    left: 6em;
+    border-bottom-right-radius: 0.5em;
+  }
+  .yoo{
+    position: relative;
+    top: 1em;
+    left: 5em;
+    border-top-left-radius: 0.5em;
+  }
