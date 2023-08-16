@@ -6,7 +6,8 @@
 
 
 .heading{
-    font-family: 'Aeonik', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
   }
   
 
@@ -16,16 +17,36 @@
   
  
   .green-text {
-    color: green;
+    color: rgb(12, 87, 12);
+  }
+  .free{
+    background: #11453B;
+
+        color:black; 
+        width:13em;
+        height: 2.5em;
+        border-radius: 3em;
+        border: none;
+        outline: none;
+    
+  }
+  .play{
+    position: relative;
+    left: 9em;
+     bottom: 10.3em;
+  }
+  .apple{
+    position: relative;
+    right: 4em;
   }
   
   
   .yellow-text {
-    color: yellow;
+    color: rgb(136, 136, 54);
   }
   
  
   .red-text {
-    color: red;
+    color: rgb(172, 70, 70);
   }
   

@@ -1,0 +1,20 @@
+.works{
+    text-align: center;
+    font-family:  Aldous Vertical;
+    color: green;
+}
+.HowItWorks{
+    padding-top: 12em;
+}
+.phone{
+    position: relative;
+   bottom:30em;
+    width: 15em;
+    left: 6.5em;
+   
+
+
+}
+.pt{
+    padding-top: 6em;
+}
