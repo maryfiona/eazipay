@@ -1,0 +1,57 @@
+.topnav {
+    overflow: hidden;
+    
+
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    left: 15em;
+  }
+  .topnav a:hover {
+    background-color:green;
+    color: white;
+  border-radius: 2em;
+
+  }
+  .easi{
+    position: relative; 
+    top: 2em;
+  }
+  .easy{
+    position: relative;
+    right: 25em;
+    top: 10px;
+  }
+  .regi{
+    background-color: rgb(34, 73, 34);
+    color: white; 
+    width:10em;
+    height: 2.5em;
+    border-radius: 3em;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 50em;
+    bottom: 3em;
+  }
+  .log{
+    
+        background-color: transparent;
+        color:green; 
+        width:10em;
+        height: 2.5em;
+        border-radius: 3em;
+       
+        
+        position: relative;
+        left: 48em;
+        bottom: 3em;
+      
+  }

@@ -1,0 +1,8 @@
+/* fonts.css */
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url('./path-to-your-font/Aeonik-Regular.ttf') format('truetype');
+    /* You can add more font styles here if needed */
+  }
+  

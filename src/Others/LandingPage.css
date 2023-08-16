@@ -1,0 +1,31 @@
+.land{
+    position: relative;
+    top: 5em;
+    
+}
+
+
+.heading{
+    font-family: 'Aeonik', sans-serif;
+  }
+  
+
+.black-text {
+    color: black;
+  }
+  
+ 
+  .green-text {
+    color: green;
+  }
+  
+  
+  .yellow-text {
+    color: yellow;
+  }
+  
+ 
+  .red-text {
+    color: red;
+  }
+  
