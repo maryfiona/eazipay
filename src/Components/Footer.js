@@ -3,6 +3,7 @@ import './Footer.css'
 import easiImage from '../Assets/easi.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import Easi2 from '../Assets/Easi2.png'
 
 
 const Footer = () => {
@@ -89,9 +90,20 @@ const Footer = () => {
 
 
                 </div>
-            </div>
+                </div>
+            
+            {/* <section>
+                <div className="sidenav">
+                    <img src={Easi2}  alt="Easi2" />
+
+                </div>
+            </section> */}
+
 
         </React.Fragment >
+
+
+
     )
 }
 export default Footer;
