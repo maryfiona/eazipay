@@ -1,9 +1,10 @@
 import React from "react";
 import './Footer.css'
-import easiImage from '../Assets/easi.png';
+import easiImage from '../assets/easi.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import Easi2 from '../Assets/Easi2.png'
+// import Easi2 from '../assets/Easi2.png'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
       };
 
     return (
-        <React.Fragment>
+        <>
             <div className="foot">
                 <div className="container">
                     <div className="row">
@@ -34,34 +35,37 @@ const Footer = () => {
                         <div className="col-md-3">
                             <div className="footer-links">
                                 <h5 className="pro">Products</h5>
-                                <a href="/">Individual</a>
-                                <br />
-                                <a href="/">Businesses</a>
-                                <br />
-                                <a href="/">Request Demo</a>
-                                <br />
-                                <a href="/">Pricing</a>
+                                
+                                 <Link to={'/business'}>Individual</Link>
+                                 <br />
+                                 <Link to={'/business'}>Business</Link>
+                                 <br />
+                                 <Link to={'/'}>Request Demo</Link>
+                                 <br />
+                                 <Link to={'/'}>Pricing</Link>
+              
                             </div>
 
 
                         </div>
                         <div className="col-md-2 footer-links">
                             <h5 className="pro">Legal</h5>
-                            <a href="/">Privacy Policy</a>
-                            <br />
-                            <a href="/">Terms of Service</a>
+                            
+                            <Link to={"/"}>Privacy Policy</Link>
+                            <br/>
+                            <Link to={"/"}>Terms of service</Link>
 
 
                         </div>
                         <div className="col-md-2 footer-links">
                             <h5 className="pro">Resources</h5>
-                            <a href="/">FAQs</a>
+                            <Link to={"/"}>FAQS</Link>
                             <br />
-                            <a href="/">Blog</a>
+                            <Link to={"/"}>Blog</Link>
                             <br />
-                            <a href="/">Career</a>
+                            <Link to={"/"}>Career</Link>
                             <br />
-                            <a href="/">Customer Stories</a>
+                            <Link to={"/"}>Customer Stories</Link>
 
 
                         </div>
@@ -100,7 +104,7 @@ const Footer = () => {
             </section> */}
 
 
-        </React.Fragment >
+        </ >
 
 
 

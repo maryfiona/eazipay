@@ -1,35 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-// import Navbar from './Components/Navbar'; // Replace './Navbar' with the actual path to your Navbar component
-
-// import Business from './Others/Business'
-// import LandingPage from './Others/LandingPage'
-// import HowItWorks from './Others/HowItWorks'
-// import Advert from './Others/Advert'
-// import Demo from './Others/Demo';
-// import Footer from './Components/Footer';
-import Dashboard from './Components/Dashboard';
-
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-   <React.Fragment>
-    {/* <Navbar />
-    <LandingPage />
-    <Business />
-    <HowItWorks />
-    <Advert />
-    <Demo />
-    <Footer /> */}
-   <Dashboard />
-   
-  
-
-
-
-
-
-   </React.Fragment>
+    <Router>
+      <>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="*" element={<center>Page not found.</center>} />
+        </Routes>
+        <Footer />
+      </>
+    </Router>
   );
 }
 

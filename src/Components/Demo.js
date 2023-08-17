@@ -1,13 +1,13 @@
 import React from "react";
 import './Demo.css'
-import Dot2 from '../Assets/Dot2.png';
+import Dot2 from '../assets/Dot2.png';
 
 
 
 const Demo = () => {
 
     return (
-        <React.Fragment>
+        <>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -62,7 +62,7 @@ const Demo = () => {
                 </div>
             </div>
 
-        </React.Fragment>
+        </>
     )
 }
 export default Demo;

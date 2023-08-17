@@ -1,14 +1,14 @@
 import React from "react";
 import  './Business.css'
-import Imge1 from '../Assets/Image1.png'; // Replace with actual image paths
-import Imge2 from '../Assets/Image2.png'; // Replace with actual image paths
-import Imge3 from '../Assets/Image3.png';
+import Imge1 from '../assets/Image1.png'; // Replace with actual image paths
+import Imge2 from '../assets/Image2.png'; // Replace with actual image paths
+import Imge3 from '../assets/Image3.png';
 
 
 const Business = () => {
 
     return(
-        <React.Fragment>
+        <>
             
             <div className="container pt-5  text-center">
                 <h1 className="text-success">
@@ -39,7 +39,7 @@ const Business = () => {
 
             
 
-        </React.Fragment>
+        </>
     )
 }
 export default Business;

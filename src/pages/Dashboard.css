@@ -1,0 +1,168 @@
+.sidebar {
+  width: 270px;
+  background-color: whitesmoke;
+  color: black;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.down {
+  position: relative;
+  left: 11em;
+  bottom: 1em;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  padding: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+/* Existing styles for Sidebar */
+
+/* 
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-button {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+} */
+
+/* .dropdown-icon {
+  margin-right: 5px;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  width: 150px;
+  display: none;
+  
+} */
+
+/* .dropdown-container:hover .dropdown-menu {
+  display: block;
+} */
+.upnav {
+  padding: 1.5em;
+}
+
+.add {
+  position: relative;
+  left: 10em;
+}
+
+.logo {
+  position: relative;
+  right: 23em;
+}
+
+.frame {
+  width: 100%;
+}
+.mr{
+  
+}
+
+.wel {
+  position: relative;
+  right: 20em;
+  top: 4em;
+}
+
+.Fund {
+  position: relative;
+  top: 3em;
+  right: 25em;
+  width: 50em;
+}
+
+.Data {
+  position: relative;
+  left: 24em;
+  bottom: 10em;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  padding: 20px;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 1em;
+
+}
+
+.added {
+  position: relative;
+  right: 22em;
+  bottom: 19em;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.text {
+  text-align: center;
+}
+
+.lol {
+  position: relative;
+  right: 10em;
+  bottom: 27.2em;
+
+}
+
+.pla {
+  position: relative;
+  left: 2em;
+  bottom: 35em;
+  width: 10em;
+  height: 8em;
+
+}
+
+.get {
+  position: relative;
+  left: 14em;
+  bottom: 43em;
+}
+
+.in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  position: relative;
+  bottom: 34em;
+
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 1em;
+}

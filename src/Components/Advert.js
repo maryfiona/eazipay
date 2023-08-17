@@ -1,16 +1,16 @@
 import React from 'react'
 import './Advert.css'
-import Smile from '../Assets/smile.png';
-import Dot from '../Assets/Dot.png'
-import PlayStoreImage from '../Assets/Playstore.png';
+import Smile from '../assets/smile.png';
+import Dot from '../assets/Dot.png'
+import PlayStoreImage from '../assets/Playstore.png';
 
-import AppleStore from '../Assets/AppleStore.png'
+import AppleStore from '../assets/AppleStore.png'
 
 
 
 const Advert = () => {
     return(
-        <React.Fragment>
+        <>
             <div className='back'>
             <div className="container">
                 <div className="row">
@@ -41,7 +41,7 @@ const Advert = () => {
 
             </div>
             </div>
-        </React.Fragment>
+        </>
     )
 
 

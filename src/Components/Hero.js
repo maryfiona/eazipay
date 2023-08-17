@@ -1,19 +1,19 @@
 import React from "react";
-import './LandingPage.css'
-import LandImg from '../Assets/Landing.png'
-import PlayStoreImage from '../Assets/Playstore.png';
+import './Hero.css'
+import LandImg from '../assets/Landing.png'
+import PlayStoreImage from '../assets/Playstore.png';
 
-import AppleStore from '../Assets/AppleStore.png'
-
-
+import AppleStore from '../assets/AppleStore.png'
 
 
-const LandingPage = () => {
+
+
+const Hero = () => {
 
 
     return(
 
-        <React.Fragment>
+        <>
             <div className="container land">
                 <div className="row">
                     <div className="col-md-6">
@@ -37,11 +37,9 @@ const LandingPage = () => {
   </a>
   <a className="play" href="https://play.google.com/store/apps?hl=en&gl=US" target="_blank" rel="noopener noreferrer">
     <img src={PlayStoreImage} alt="PlayStoreImage" />
-    
   </a>
       </div>
-
-                    </div>
+    </div>
                     <div className="col-md-6">
                         <img width={650} src={LandImg} alt="LandImg" />
 
@@ -52,7 +50,7 @@ const LandingPage = () => {
             </div>
 
 
-        </React.Fragment>
+        </>
     )
 }
-export default LandingPage;
+export default Hero;
