@@ -40,16 +40,7 @@
 
 
 
-.form-box input {
-    padding: 10px;
-    margin-bottom: 40px;
-    border: 1px solid #ccc;
-    border-radius: 4em;
-}
-.add{
-    position: relative;
-    top: 1em;
-}
+
 
 .butt {
     background-color:rgb(40, 63, 40);

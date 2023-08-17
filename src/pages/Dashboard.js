@@ -16,6 +16,7 @@ import Ploy from '../assets/Ploy.png'
 import Salary from '../assets/Salary.png'
 import get from '../assets/get.png'
 import plain from '../assets/plain.png'
+import graph from '../assets/graph.png'
 
 const Dashboard = () => {
     // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -97,32 +98,56 @@ const Dashboard = () => {
                             <div className='row'>
                                 <div className='col-md-4'>
                                     <p>Inflow</p>
-                                    <h1 className='text-success' >
+                                    <h5 className='text-success' >
                                         N1,567,552
-                                    </h1>
+                                    </h5>
 
                                 </div>
                                 <div className='col-md-4 '>
                                     <p>Outflow</p>
-                                    <h1 className='text-danger'>
+                                    <h5 className='text-danger'>
                                         N1,567,552
-                                    </h1>
-
-                                  
+                                    </h5>
                                 </div>
-                                <div className='col-md-4 mr' >
-                                    <p>Inflow</p>
-                                    <h1>
-                                        N1,567,552
-                                    </h1>
-
+                                <div className='col-md-4 flow' >
+                                    <p className='text-success'>Inflow/Outflow
+                                    </p>
                                 </div>
-
                             </div>
-
+                            <div>
+                                <img width={650} src={graph} alt="graph" />
+                            </div>
+                            <div>
+                                <button className='graph-button'>
+                                    2022
+                                </button>
+                            </div>
                         </div>
                     </section>
                 </div>
+            </div>
+
+                 
+
+                 <section>
+                    <h2>Recent Activities</h2>
+                 </section>
+
+            <div className='container'>
+                <div className='text-center'>
+                <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search employee" />
+        <button id="search-button"><img src={Dash} alt="Dash"/></button>
+    </div>
+
+                </div>
+                
+                    <div>
+
+                    
+
+                </div>
+
             </div>
         </>
     )

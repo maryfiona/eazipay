@@ -81,8 +81,10 @@
 .frame {
   width: 100%;
 }
-.mr{
-  
+.flow{
+  position: relative;
+  left: 10em;
+  top: 2em;
 }
 
 .wel {
@@ -166,3 +168,45 @@
   background-color: whitesmoke;
   border-radius: 1em;
 }
+.graph-button{
+  position: relative;
+  left: 20em;
+  background: rgb(13, 92, 13);
+  color: white;
+  border: none;
+  outline: none;
+  
+}
+.search-container {
+  text-align: center;
+  position: relative;
+  bottom: 20em;
+
+
+}
+
+#search-input {
+  padding: 9px;
+  width: 706px;
+  border-radius: 2em;
+  border-bottom-left-radius: 10em;
+  border-top-left-radius: 10em;
+   outline: none;
+ 
+}
+
+#search-button {
+  padding: 10px 20px;
+  background-color: rgb(235, 231, 227);
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+
+
+
+
