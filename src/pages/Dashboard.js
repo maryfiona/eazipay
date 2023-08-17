@@ -17,6 +17,7 @@ import Salary from '../assets/Salary.png'
 import get from '../assets/get.png'
 import plain from '../assets/plain.png'
 import graph from '../assets/graph.png'
+import search from '../assets/search.png'
 
 const Dashboard = () => {
     // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -137,7 +138,8 @@ const Dashboard = () => {
                 <div className='text-center'>
                 <div class="search-container">
         <input type="text" id="search-input" placeholder="Search employee" />
-        <button id="search-button"><img src={Dash} alt="Dash"/></button>
+        <button id="search-button"><img src={search} alt="search"/></button>
+        
     </div>
 
                 </div>
@@ -149,6 +151,16 @@ const Dashboard = () => {
                 </div>
 
             </div>
+            <div>
+                <h3>Wednesday, November 09, 2022</h3>
+
+            </div>
+            {/* <div className="d-flex gap-3 py-5">
+            <div className="rounded-pill border-1 p-2" ></div>
+                                    <div className="rounded-pill border-1 p-2" ></div>
+                
+            </div> */}
+            
         </>
     )
 }

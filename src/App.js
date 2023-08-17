@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
+
 import HomePage from './pages/HomePage';
 import Dashboard from './pages/Dashboard';
 
@@ -14,7 +14,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="*" element={<center>Page not found.</center>} />
         </Routes>
-        <Footer />
+        
       </>
     </Router>
   );
