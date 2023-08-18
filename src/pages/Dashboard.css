@@ -225,20 +225,38 @@
   border: 1px solid #E7E8E7;
   padding: 20px 20px;
   border-radius: 2em;
-  position: relative;
-  left: 10em;
-  bottom: 20em;
+  
+  
 }
 .bad{
   position: relative;
   left: 4em;
   bottom: 2em;
 }
-.buttt{
+/* .buttt{
   position: relative;
   bottom: 22em;
   right: 10em;
+} */
+.search{
+  position: relative;
+  width: 50em;
+  height: 3em;
+  border-radius: 2em;
+  padding: 20px;
 }
+.botton{
+  width: 2em;
+  height: 2.5em;
+
+}
+.bm{
+  position: relative;
+  top: 4em;
+  right: 4em;
+}
+
+
 
 
 

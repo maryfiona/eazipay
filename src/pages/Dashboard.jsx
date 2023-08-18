@@ -145,10 +145,102 @@ const Dashboard = () => {
                 <button className="graph-button">2022</button>
               </div>
             </div>
+            <div>
+              <div>
+                <h3>Recent Activities</h3>
+              </div>
+              <input className="search" name="text" placeholder="Search employee" />
+              <button className="">
+              <img className="botton" src={search} alt="search" />
+              </button>
+            
+
+            </div>
+            <div className="container ">
+            <h3>Wednesday, November 09, 2022</h3>
+                       </div>
+            <div className="box1 d-flex">
+                 <p>PAYROLL</p>
+            <div className=" col-md-3 bm">
+                 <img src={BM} alt="BM" />
+                 <p className="bad">Badmus Kemis</p>
+               </div>
+               <div className="col-md-3">
+                 <p>ACTIVITY</p>
+                 <p>Paid November 2022 salary</p>
+               </div>
+               <div className="col-md-3">
+                 <p>EMPLOYEE</p>
+                 <p>52</p>
+               </div>
+               <div className="col-md-2">
+                 <p>TIME</p>
+                 <p>16:15</p>
+              </div>
+
+            </div>
+            
+            <div className="box1 d-flex">
+                 <p>EMPLOYEE MANAGEMENT</p>
+            <div className=" col-md-3 bm">
+                 <img src={head} alt="head" />
+                 <p className="bad">Kalu Abasiama</p>
+               </div>
+               <div className="col-md-3">
+                 <p>ACTIVITY</p>
+                 <p>Added new employee</p>
+               </div>
+               <div className="col-md-3">
+                 <p>EMPLOYEE</p>
+                 <p>04</p> 
+               </div>
+               
+
+            </div>
+            <div className="container ">
+            <h3>Friday, November 04, 2022</h3>
+                       </div>
+            <div className="box1 d-flex">
+                 <p>BONUS</p>
+            <div className=" col-md-3 bm">
+                 <img src={BM} alt="BM" />
+                 <p className="bad">Badmus Kemis</p>
+               </div>
+               <div className="col-md-3">
+                 <p>ACTIVITY</p>
+                 <p>Added new bonus</p>
+               </div>
+               <div className="col-md-3">
+                 <p>BONUS NAME</p>
+                 <p>XMAS Bonus</p>
+               </div>
+            </div>
+            
+            <div className="box1 d-flex">
+                 <p>WALLET</p>
+            <div className=" col-md-3 bm">
+                 <img src={BM} alt="BM " />
+                 <p className="bad">Badmus Kemis</p>
+               </div>
+               <div className="col-md-3">
+                 <p>ACTIVITY</p>
+                 <p>Paid November 2022 salary</p>
+               </div>
+               <div className="col-md-3">
+                 <p>AMOUNT</p>
+                 <p>N11,1678,900.00</p>
+               </div>
+               <div className="col-md-2">
+                 <p>TIME</p>
+                 <p>15:21</p>
+              </div>
+
+            </div>
 
 
 
           </div>
+          
         </main>
       </div>
     </>
