@@ -5,6 +5,7 @@ import "./App.css";
 import HomePage from "./pages/HomePage";
 import Dashboard from "./pages/Dashboard";
 import MobileDashboard from "./pages/mobile/Dashboard";
+import Employee from "./pages/mobile/Employee";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/mobile" element={<MobileDashboard />} />
+          <Route path="/mobile/employee" element={<Employee />} />
           <Route path="*" element={<center>Page not found.</center>} />
         </Routes>
       </>

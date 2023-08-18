@@ -26,7 +26,7 @@ const BottomNav = () => {
             <div className="w-100 d-flex justify-content-even">
                 {[
                     { icon: Home, title: "Home", link: "/mobile" },
-                    { icon: Employ, title: "Employee", link: "/mobile" },
+                    { icon: Employ, title: "Employee", link: "/mobile/employee" },
                     { icon: Pay, title: "Payroll", link: "/mobile" },
                     { icon: Loan, title: "Loans", link: "/mobile" },
                     { icon: More, title: "More", link: "/mobile" },
