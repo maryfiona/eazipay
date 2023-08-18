@@ -3,7 +3,6 @@ import './Footer.css'
 import easiImage from '../assets/easi.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import Easi2 from '../assets/Easi2.png'
 import { Link } from 'react-router-dom';
 
 
@@ -95,16 +94,7 @@ const Footer = () => {
 
                 </div>
                 </div>
-            
-            {/* <section>
-                <div className="sidenav">
-                    <img src={Easi2}  alt="Easi2" />
-
-                </div>
-            </section> */}
-
-
-        </ >
+                </ >
 
 
 

@@ -3,19 +3,7 @@ import './Demo.css'
 import Dot2 from '../assets/Dot2.png';
 
 
-// font-family: MADE Mellow PERSONAL USE;
-// font-size: 64px;
-// font-weight: 500;
-// line-height: 64px;
-// letter-spacing: 0em;
-// text-align: center;
 
-// font-family: MADE Mellow PERSONAL USE;
-// font-size: 64px;
-// font-weight: 700;
-// line-height: 64px;
-// letter-spacing: 0em;
-// text-align: center;
 
 
 

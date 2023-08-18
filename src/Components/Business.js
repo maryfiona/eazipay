@@ -1,7 +1,7 @@
 import React from "react";
 import  './Business.css'
-import Imge1 from '../assets/Image1.png'; // Replace with actual image paths
-import Imge2 from '../assets/Image2.png'; // Replace with actual image paths
+import Imge1 from '../assets/Image1.png'; 
+import Imge2 from '../assets/Image2.png'; 
 import Imge3 from '../assets/Image3.png';
 
 
