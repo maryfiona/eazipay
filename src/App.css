@@ -1,3 +1,15 @@
 .text-grey {
     color: #515251;
 }
+
+.text-green {
+    color: #11453B;
+}
+
+.bg-green {
+    background-color: #11453B;
+}
+
+.bg-grey {
+    background-color: #F2F1F1;
+}
