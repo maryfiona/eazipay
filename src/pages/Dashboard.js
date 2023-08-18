@@ -18,6 +18,8 @@ import get from '../assets/get.png'
 import plain from '../assets/plain.png'
 import graph from '../assets/graph.png'
 import search from '../assets/search.png'
+import BM from '../assets/BM.png'
+import head from '../assets/head.png'
 
 const Dashboard = () => {
     // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -143,7 +145,7 @@ const Dashboard = () => {
     </div>
 
                 </div>
-                
+                 
                     <div>
 
                     
@@ -151,15 +153,126 @@ const Dashboard = () => {
                 </div>
 
             </div>
-            <div>
+            <div  className='container buttt text-center'>
                 <h3>Wednesday, November 09, 2022</h3>
 
             </div>
-            {/* <div className="d-flex gap-3 py-5">
-            <div className="rounded-pill border-1 p-2" ></div>
-                                    <div className="rounded-pill border-1 p-2" ></div>
-                
-            </div> */}
+            <div className='container  box1'>
+                <div className='row'>
+                <div className=' col-md-3'>
+                            <p>PAYROLL</p>
+                            <img  src={BM} alt="BM" />
+                             <p className='bad'>Badmus Kemis</p>
+                        
+                        </div>
+                    <div className='col-md-3'>
+                        <p>ACTIVITY</p>
+                        <p>Paid November 2022 salary</p>
+                        
+
+                        </div>
+                        <div className='col-md-3'>
+                            <p>EMPLOYEE</p>
+                            <p>52</p>
+                        
+
+                        </div>
+                        <div className='col-md-2'>
+                            <p>TIME</p>
+                            <p>16:15</p>
+                        
+
+                        </div>
+
+                </div>
+
+            </div>
+            <div className='container  box1'>
+                <div className='row'>
+                <div className=' col-md-4'>
+                            <p>PAYROLL</p>
+                            <img  src={head} alt="head" />
+                             <p className='bad'>Kalu Abasiama</p>
+                        
+                        </div>
+                    <div className='col-md-4'>
+                        <p>ACTIVITY</p>
+                        <p>Added new employee</p>
+                        
+
+                        </div>
+                        <div className='col-md-4'>
+                            <p>EMPLOYEE</p>
+                            <p>04</p>
+                        
+
+                        </div>
+                       
+
+                        </div>
+                       
+            </div>
+            <div  className='container pt-5 buttt text-center'>
+                <h3 className='pt-5'>Friday, November 04, 2022</h3>
+
+            </div>
+            <div className='container  box1'>
+                <div className='row'>
+                <div className=' col-md-4'>
+                            <p>PAYROLL</p>
+                            <img  src={BM} alt="BM" />
+                             <p className='bad'>Badmus Kemis</p>
+                        
+                        </div>
+                    <div className='col-md-4'>
+                        <p>ACTIVITY</p>
+                        <p>Added new bonus</p>
+                        
+
+                        </div>
+                        <div className='col-md-4'>
+                            <p>BONUS NAME</p>
+                            <p>XMAS Bonus</p>
+                        
+
+                        </div>
+                        
+
+                </div>
+
+            </div>
+            <div className='container  box1'>
+                <div className='row'>
+                <div className=' col-md-3'>
+                            <p>PAYROLL</p>
+                            <img  src={head} alt="head" />
+                             <p className='bad'>Kalu Abasiama</p>
+                        
+                        </div>
+                    <div className='col-md-3'>
+                        <p>ACTIVITY</p>
+                        <p>Added new employee</p>
+                        
+
+                        </div>
+                        <div className='col-md-3'>
+                            <p>AMOUNT</p>
+                            <p>N11,1678,900.00</p>
+                        
+
+                        </div>
+                        <div className='col-md-3'>
+                            <p>TIME</p>
+                            <p>15:31</p>
+                        
+
+                        </div>
+                       
+
+                        </div>
+                       
+            </div>
+            
             
         </>
     )

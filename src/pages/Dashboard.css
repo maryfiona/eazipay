@@ -205,7 +205,28 @@
   border-bottom-right-radius: 1.5em;
   border-top-right-radius: 1.5em;
 }
-
+.box1{
+  width: 60em;
+  height: 8em;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+  linear-gradient(0deg, #E7E8E7, #E7E8E7);
+  border: 1px solid #E7E8E7;
+  padding: 20px 20px;
+  border-radius: 2em;
+  position: relative;
+  left: 10em;
+  bottom: 20em;
+}
+.bad{
+  position: relative;
+  left: 4em;
+  bottom: 2em;
+}
+.buttt{
+  position: relative;
+  bottom: 22em;
+  right: 10em;
+}
 
 
 
