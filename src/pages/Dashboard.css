@@ -1,11 +1,23 @@
 .sidebar {
   width: 270px;
-  background-color: whitesmoke;
-  color: black;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* background-color: whitesmoke; */
+}
+
+.bg-dashboard {
+  background-color: #F9FAFC;
+}
+
+.main {
+  width: calc(100% - 270px);
+  left: 270px;
+}
+
+.topbar {
+  height: 80px;
+}
+
+.radius-25 { 
+  border-radius: 24px;
 }
 
 .down {
@@ -19,15 +31,15 @@
   padding: 0;
 }
 
-.nav-links li {
+/* .nav-links li {
   padding: 10px;
-}
+} */
 
-.nav-links a {
+/* .nav-links a {
   text-decoration: none;
-  color: black;
+  color: #515251;
   font-size: 16px;
-}
+} */
 
 /* Existing styles for Sidebar */
 
@@ -87,13 +99,13 @@
   top: 2em;
 }
 
-.wel {
+/* .wel {
   position: relative;
   right: 20em;
   top: 4em;
-}
+} */
 
-.Fund {
+/* .Fund {
   position: relative;
   top: 3em;
   right: 25em;
@@ -104,9 +116,9 @@
   position: relative;
   left: 24em;
   bottom: 10em;
-}
+} */
 
-.box {
+/* .box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,7 +128,7 @@
   background-color: whitesmoke;
   border-radius: 1em;
 
-}
+} */
 
 .added {
   position: relative;
@@ -133,7 +145,7 @@
 .text {
   text-align: center;
 }
-
+/* 
 .lol {
   position: relative;
   right: 10em;
@@ -154,7 +166,7 @@
   position: relative;
   left: 14em;
   bottom: 43em;
-}
+} */
 
 .in {
   display: flex;
