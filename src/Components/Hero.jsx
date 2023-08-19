@@ -8,7 +8,7 @@ import AppleStore from "../assets/AppleStore.png";
 const Hero = () => {
   return (
     <>
-      <div className="container land">
+      <div className="container land vh-100">
         <div className="row">
           <div className="col-md-6">
             <h1 className="heading">
@@ -29,22 +29,24 @@ const Hero = () => {
             </button>
             <div className="pt-5">
               <p>Download the Eazipay App</p>
-              <a
-                className="apple"
-                href="https://www.apple.com/store"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={AppleStore} alt="AppleStore" />
-              </a>
-              <a
-                className="play"
-                href="https://play.google.com/store/apps?hl=en&gl=US"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={PlayStoreImage} alt="PlayStoreImage" />
-              </a>
+              <div className="d-flex gap-3">
+                <a
+                  className="shadow radius-25"
+                  href="https://www.apple.com/store"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={AppleStore} alt="AppleStore" />
+                </a>
+                <a
+                  className="shadow radius-25"
+                  href="https://play.google.com/store/apps?hl=en&gl=US"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={PlayStoreImage} alt="PlayStoreImage" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-md-6">

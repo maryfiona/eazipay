@@ -17,9 +17,10 @@ import Salary from "../assets/Salary.png";
 import get from "../assets/get.png";
 import plain from "../assets/plain.png";
 import graph from "../assets/graph.png";
-import search from "../assets/search.png";
+import FilterIcon from "../assets/FilterIcon.png";
 import BM from "../assets/BM.png";
 import head from "../assets/head.png";
+import SearchIcon from "../assets/SearchIcon.png";
 import { Link, useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
@@ -58,8 +59,6 @@ const Sidebar = () => {
   )
 }
 const SidebarItem = ({ icon, title, link }) => {
-  // const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
   return (
     <li style={{ cursor: "pointer" }} className="d-flex gap-2 w-100 align-items-center p-3 text-grey border-bottom">
       <img src={icon} alt={title} width={20} height={20} />
@@ -87,7 +86,7 @@ const Dashboard = () => {
         <Sidebar />
         <main className="main position-relative top-0 overflow-y-auto">
           <Topbar />
-          <div className="container p-5 d-flex flex-column gap-3 overflow-y-auto">
+          <div className="container p-5 d-flex flex-column gap-5 overflow-y-auto">
             {/* welcome note */}
             <div className="d-flex flex-column gap-0">
               <h1 className="m-0">Welcome Abasiama</h1>
@@ -145,102 +144,119 @@ const Dashboard = () => {
                 <button className="graph-button">2022</button>
               </div>
             </div>
-            <div>
-              <div>
-                <h3>Recent Activities</h3>
-              </div>
-              <input className="search" name="text" placeholder="Search employee" />
-              <button className="">
-              <img className="botton" src={search} alt="search" />
-              </button>
-            
 
-            </div>
-            <div className="container ">
-            <h3>Wednesday, November 09, 2022</h3>
-                       </div>
-            <div className="box1 d-flex">
-                 <p>PAYROLL</p>
-            <div className=" col-md-3 bm">
-                 <img src={BM} alt="BM" />
-                 <p className="bad">Badmus Kemis</p>
-               </div>
-               <div className="col-md-3">
-                 <p>ACTIVITY</p>
-                 <p>Paid November 2022 salary</p>
-               </div>
-               <div className="col-md-3">
-                 <p>EMPLOYEE</p>
-                 <p>52</p>
-               </div>
-               <div className="col-md-2">
-                 <p>TIME</p>
-                 <p>16:15</p>
+            {/* recent activities */}
+            <div className="w-100 d-flex flex-column gap-4">
+              <h3>Recent Activities</h3>
+
+              <div className="w-100 d-flex gap-2">
+                <div className="w-100 input-group radius-25">
+                  <input className="input form-control radius-25" name="text" placeholder="Search employee" />
+                  <button style={{ width: '10%' }} className="btn bg-light-green radius-25">
+                    <img width={24} height={24} src={SearchIcon} alt="search" />
+                  </button>
+                </div>
+                <button style={{ width: '10%' }} className="btn bg-white border text-grey radius-25 d-flex align-items-center d-flex gap-2 justify-content-center">
+                  <img width={18} height={18} src={FilterIcon} alt="filter" />
+                  <span>Filter</span>
+                </button>
               </div>
 
-            </div>
-            
-            <div className="box1 d-flex">
-                 <p>EMPLOYEE MANAGEMENT</p>
-            <div className=" col-md-3 bm">
-                 <img src={head} alt="head" />
-                 <p className="bad">Kalu Abasiama</p>
-               </div>
-               <div className="col-md-3">
-                 <p>ACTIVITY</p>
-                 <p>Added new employee</p>
-               </div>
-               <div className="col-md-3">
-                 <p>EMPLOYEE</p>
-                 <p>04</p> 
-               </div>
-               
+              <div className="radius-25 bg-grey d-flex flex-column gap-5 py-5 px-4">
 
-            </div>
-            <div className="container ">
-            <h3>Friday, November 04, 2022</h3>
-                       </div>
-            <div className="box1 d-flex">
-                 <p>BONUS</p>
-            <div className=" col-md-3 bm">
-                 <img src={BM} alt="BM" />
-                 <p className="bad">Badmus Kemis</p>
-               </div>
-               <div className="col-md-3">
-                 <p>ACTIVITY</p>
-                 <p>Added new bonus</p>
-               </div>
-               <div className="col-md-3">
-                 <p>BONUS NAME</p>
-                 <p>XMAS Bonus</p>
-               </div>
-            </div>
-            
-            <div className="box1 d-flex">
-                 <p>WALLET</p>
-            <div className=" col-md-3 bm">
-                 <img src={BM} alt="BM " />
-                 <p className="bad">Badmus Kemis</p>
-               </div>
-               <div className="col-md-3">
-                 <p>ACTIVITY</p>
-                 <p>Paid November 2022 salary</p>
-               </div>
-               <div className="col-md-3">
-                 <p>AMOUNT</p>
-                 <p>N11,1678,900.00</p>
-               </div>
-               <div className="col-md-2">
-                 <p>TIME</p>
-                 <p>15:21</p>
+                <div className="d-flex flex-column gap-2">
+                  <h6>Wednesday, November 09, 2022</h6>
+
+                  <div className="d-flex flex-column gap-2 bg-white border shadow radius-25 py-2 px-5">
+                    <p className="m-0">PAYROLL</p>
+                    <div className="w-100 row">
+                      <div className="col-4 mt-4 d-flex align-items-center gap-3">
+                        <img width={32} height={32} src={BM} alt="BM" />
+                        <p className="m-0">Badmus Kemis</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">ACTIVITY</p>
+                        <p className="m-0">Paid November 2022 salary</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">EMPLOYEE</p>
+                        <p className="m-0">52</p>
+                      </div>
+                      <div className="col-2">
+                        <p className="m-0">TIME</p>
+                        <p className="m-0">16:15</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="d-flex flex-column gap-2 bg-white border shadow radius-25 py-2 px-5">
+                    <p className="m-0">EMPLOYEE MANAGEMENT</p>
+                    <div className="w-100 row">
+                      <div className="col-4 mt-4 d-flex align-items-center gap-3">
+                        <img width={32} height={32} src={head} alt="BM" />
+                        <p className="m-0">Kalu Abasiama</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">ACTIVITY</p>
+                        <p className="m-0">Added new employee</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">EMPLOYEE</p>
+                        <p className="m-0">04</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="d-flex flex-column gap-2">
+                  <h6>Friday, November 04, 2022</h6>
+
+                  <div className="d-flex flex-column gap-2 bg-white border shadow radius-25 py-2 px-5">
+                    <p className="m-0">BONUS</p>
+                    <div className="w-100 row">
+                      <div className="col-4 mt-4 d-flex align-items-center gap-3">
+                        <img width={32} height={32} src={BM} alt="BM" />
+                        <p className="m-0">Badmus Kemis</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">ACTIVITY</p>
+                        <p className="m-0">Added new bonus</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">BONUS NAME</p>
+                        <p className="m-0">XMAS Bonus</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="d-flex flex-column gap-2 bg-white border shadow radius-25 py-2 px-5">
+                    <p className="m-0">PAYROLL</p>
+                    <div className="w-100 row">
+                      <div className="col-4 mt-4 d-flex align-items-center gap-3">
+                        <img width={32} height={32} src={BM} alt="BM" />
+                        <p className="m-0">Badmus Kemis</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">ACTIVITY</p>
+                        <p className="m-0">Paid November 2022 salary</p>
+                      </div>
+                      <div className="col-3">
+                        <p className="m-0">AMOUNT</p>
+                        <p className="m-0 text-danger">N11,1678,900.00</p>
+                      </div>
+                      <div className="col-2">
+                        <p className="m-0">TIME</p>
+                        <p className="m-0">15:21</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
-
             </div>
-
-
 
           </div>
-          
+
         </main>
       </div>
     </>
@@ -249,108 +265,3 @@ const Dashboard = () => {
 
 export default Dashboard;
 
-
-//           </div>
-
-//           <section>
-//             <h2>Recent Activities</h2>
-//           </section>
-
-//           <div className="container">
-//             <div className="text-center">
-//               <div class="search-container">
-//                 <input
-//                   type="text"
-//                   id="search-input"
-//                   placeholder="Search employee"
-//                 />
-//                 <button id="search-button">
-//                   <img src={search} alt="search" />
-//                 </button>
-//               </div>
-//             </div>
-
-//             <div></div>
-//           </div>
-//           <div className="container buttt text-center">
-//             <h3>Wednesday, November 09, 2022</h3>
-//           </div>
-//           <div className="container  box1">
-//             <div className="row">
-//               <div className=" col-md-3">
-//                 <p>PAYROLL</p>
-//                 <img src={BM} alt="BM" />
-//                 <p className="bad">Badmus Kemis</p>
-//               </div>
-//               <div className="col-md-3">
-//                 <p>ACTIVITY</p>
-//                 <p>Paid November 2022 salary</p>
-//               </div>
-//               <div className="col-md-3">
-//                 <p>EMPLOYEE</p>
-//                 <p>52</p>
-//               </div>
-//               <div className="col-md-2">
-//                 <p>TIME</p>
-//                 <p>16:15</p>
-//               </div>
-//             </div>
-//           </div>
-//           <div className="container  box1">
-//             <div className="row">
-//               <div className=" col-md-4">
-//                 <p>PAYROLL</p>
-//                 <img src={head} alt="head" />
-//                 <p className="bad">Kalu Abasiama</p>
-//               </div>
-//               <div className="col-md-4">
-//                 <p>ACTIVITY</p>
-//                 <p>Added new employee</p>
-//               </div>
-//               <div className="col-md-4">
-//                 <p>EMPLOYEE</p>
-//                 <p>04</p>
-//               </div>
-//             </div>
-//           </div>
-//           <div className="container pt-5 buttt text-center">
-//             <h3 className="pt-5">Friday, November 04, 2022</h3>
-//           </div>
-//           <div className="container  box1">
-//             <div className="row">
-//               <div className=" col-md-4">
-//                 <p>PAYROLL</p>
-//                 <img src={BM} alt="BM" />
-//                 <p className="bad">Badmus Kemis</p>
-//               </div>
-//               <div className="col-md-4">
-//                 <p>ACTIVITY</p>
-//                 <p>Added new bonus</p>
-//               </div>
-//               <div className="col-md-4">
-//                 <p>BONUS NAME</p>
-//                 <p>XMAS Bonus</p>
-//               </div>
-//             </div>
-//           </div>
-//           <div className="container  box1">
-//             <div className="row">
-//               <div className=" col-md-3">
-//                 <p>PAYROLL</p>
-//                 <img src={head} alt="head" />
-//                 <p className="bad">Kalu Abasiama</p>
-//               </div>
-//               <div className="col-md-3">
-//                 <p>ACTIVITY</p>
-//                 <p>Added new employee</p>
-//               </div>
-//               <div className="col-md-3">
-//                 <p>AMOUNT</p>
-//                 <p>N11,1678,900.00</p>
-//               </div>
-//               <div className="col-md-3">
-//                 <p>TIME</p>
-//                 <p>15:31</p>
-//               </div>
-//             </div>
-//           </div>
