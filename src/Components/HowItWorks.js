@@ -13,18 +13,29 @@ const HowItWorks = () => {
             <h1 className="works">How Eazipay Works</h1>
                 <h5 className="text-center">Get started in 3 simple steps.</h5>
             </div>
-            <div className="container">
+            <div className="container ">
                 <div  className="d-flex justify-content-center align-items-center ">
                 
                 <div className="row ">
                     <div className="col-md-6">
+                    <div className="pr-md-5 pe-md-5">
+                    <div className="pr-md-5 pe-md-5">
+                    <div className="pr-md-5 pe-md-5">
                     <img className="pt" width={450} src={BG} alt="Bg" />
+                    <div className="phon">
                     <img className="phone"  src={Phone} alt="phone" />
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
 
 
                     </div>
                     <div className="col-md-6">
-                        <img className="pt" width={300} src={Steps} alt="Steps" />
+                       <div className="pl-md-5 pe-md-5">
+                       <img className="pt" width={300} src={Steps} alt="Steps" />
+                       </div>
 
                     </div>
 

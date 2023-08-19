@@ -4,17 +4,19 @@
     color: green;
 }
 .HowItWorks{
-    padding-top: 12em;
+    padding-top: 4px;
+}
+.phon{
+    position: relative;
 }
 .phone{
-    position: relative;
-   bottom:30em;
+    position: absolute;
+   bottom:35px;
     width: 15em;
     left: 6.5em;
-   
-
-
 }
+
+
 .pt{
     padding-top: 6em;
 }
